@@ -8,5 +8,5 @@ This tutorial is for those who have no idea how to prepare for machine learning 
 1. [Data Science and Machine Learning Interview Questions](https://towardsdatascience.com/data-science-and-machine-learning-interview-questions-3f6207cf040b)
 
 ## General Questions
-##### 1.How does gradient descent work?
+#### 1.How does gradient descent work?
 
