@@ -21,3 +21,14 @@ Data normalization is used to rescale values to fit in a specific range to assur
 Dimentionality reduction is the process to reduce the number of features variables under consideration by obtaining a set of principal variables(important features). The importance of a feature depends on how much it contributes to the information representation of the data. There are linear and non linear techniques. Benefits are (1) more storage space (2) speed up computation (3) remove redundant features (4) easy plotting (5) reduce overfitting.
 #### 10. How to handle corrupted or missing data?
 You could drop the column/row or replace with a placeholder value. Pandas library provides you with isnull() to find null values and dropna() to drop those values. If you want to replace with a placeholder value you can use fillna() function.
+#### 11. How would you go about doing an Exploratory Data Analysis?
+#### 12. How do you know which machine learning modle you should use?
+#### 13. Why do we use Convolutional Layer for images rather than just Fully Connected Layers?
+#### 14. What makes CNNs translation invariant?
+#### 15. Why do we have max-pooling in classification CNNs?
+#### 16. Why do segmentation CNNs typically have and encoder-decoder style structure?
+#### 17. What is the significnace of Residual Networks?
+#### 18. What is batch normalization and how does it work?
+#### 19. How would you handle an imbalanced dataset?
+#### 20. Why would you use many small convolutional kernels such as 3x3 rather than a few large ones?
+#### 21. Do you have any other projects
