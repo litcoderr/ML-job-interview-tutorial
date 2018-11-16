@@ -6,6 +6,7 @@ This tutorial is for those who have no idea how to prepare for machine learning 
 
 ### Reference
 1. [Data Science and Machine Learning Interview Questions](https://towardsdatascience.com/data-science-and-machine-learning-interview-questions-3f6207cf040b)
+2. [Mahchine Learning Interview Questions and Answers](https://www.youtube.com/watch?v=hB1CTizqGFk)
 
 ## General Questions
 #### 1. What is gradient descent?
