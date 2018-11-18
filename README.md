@@ -10,7 +10,9 @@ This tutorial is for those who have no idea how to prepare for machine learning 
 
 ## General Questions
 #### 1. What is gradient descent?
+Gradient Descent is an iterative optimization algorithm for finding the minimum of a function. To find the local minimum of a function, one takes steps proportional to the negative of the gradient of the function. GD repeats this process util convergence.
 #### 2. What's the trade-off between bias and variance?
+
 #### 3. Explain over and under fitting and how to combat them?
 #### 4. How do you combat the curse of dimentionality?
 #### 5. What is regularization and why do we need it? What are some common methods?
