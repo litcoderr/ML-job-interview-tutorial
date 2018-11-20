@@ -12,7 +12,9 @@ This tutorial is for those who have no idea how to prepare for machine learning 
 #### 1. What is gradient descent?
 Gradient Descent is an iterative optimization algorithm for finding the minimum of a function. To find the local minimum of a function, one takes steps proportional to the negative of the gradient of the function. GD repeats this process util convergence.
 #### 2. What's the trade-off between bias and variance?
-
+Bias is the difference between the average prediction and the correct value. Model with high bias pays little attention to the training data and leads to high error on training and test data. <br>
+Variance is the variability of model prediction for a given data point. Model with high variance pays a lot of attention to training data and does not generalize which leads to high error rates on test data. <br>
+If my model is simple and has very few parameters then it may have high bias and low variance. However if our model has large number of parameters then it's going to have high variance and low bias. So we need to find the right balance without overfitting and underfitting.
 #### 3. Explain over and under fitting and how to combat them?
 #### 4. How do you combat the curse of dimentionality?
 #### 5. What is regularization and why do we need it? What are some common methods?
