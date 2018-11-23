@@ -25,7 +25,7 @@ We need them to overcome over and underfitting explained in question number 3.
 #### 6. Explain Principal Component Analysis(PCA)?
 PCA is a technique used to emphasize variation and bring out strong patterns in a dataset and also easy to visualize. We find principal components by finding the most fitting axis using SVM. Then calculate the sum of squared distances for all the data point for each principal component and find the variance and reliability of the dataset.
 #### 7. Why is ReLU better and more often used than Sigmoid in Neural Networks?
-
+There are two major benefits of ReLUs. It has sparsity and reduced likelihood of vanishing gradient. When relu's input value is bigger than 0 gradient of relu is a constant value. In contrast gradient of sigmoid becomes increasingly small as the absolute value of the input increases. Also sparsity arises when input is same or smaller than 0 which is beneficial than dense representation.
 #### 8. What is data normalization and why do we need it?
 Data normalization is used to rescale values to fit in a specific range to assure better convergence during backpropagation. In general you subtract the mean of each data point to center the dataset to 0 and devide by its standard deviation. This is to make all the features have similar magnitude and have bigger learning rates to converge faster.
 #### 9. Explain dimentionality reduction, where it's used and its benefits?
