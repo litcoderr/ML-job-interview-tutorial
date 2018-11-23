@@ -19,13 +19,21 @@ If my model is simple and has very few parameters then it may have high bias and
 To overcome underfitting we have to increase the degree d of the polynomial predictive function. The training error will tend to decrease. Also the cross validation error will tend to decrease forming a convex curve.<br>
 To overcome overfitting we can use regularization techniques. There are three types L1, L2 regularization and Elastic Net. L1 adds absolute value of magnitude to the cost function. L2 adds squared magnitude to the cost function. Elastic Net implements both Lasso and Ridge together. 
 #### 4. How do you combat the curse of dimentionality?
+When the dimensionality increases the volume of the space increases exponentially. To support the complex model the more data you need. To solve this problem I would change the algorithm (use RNNs) or reduce the dimentionality of my data. It is explained in question number 9.
 #### 5. What is regularization and why do we need it? What are some common methods?
+We need them to overcome over and underfitting explained in question number 3.
 #### 6. Explain Principal Compponent Analysis(PCA)?
 #### 7. Why is ReLU better and more often used than Sigmoid in Neural Networks?
 #### 8. What is data normalization and why do we need it?
 Data normalization is used to rescale values to fit in a specific range to assure better convergence during backpropagation. In general you subtract the mean of each data point to center the dataset to 0 and devide by its standard deviation. This is to make all the features have similar magnitude and have bigger learning rates to converge faster.
 #### 9. Explain dimentionality reduction, where it's used and its benefits?
-Dimentionality reduction is the process to reduce the number of features variables under consideration by obtaining a set of principal variables(important features). The importance of a feature depends on how much it contributes to the information representation of the data. There are linear and non linear techniques. Benefits are (1) more storage space (2) speed up computation (3) remove redundant features (4) easy plotting (5) reduce overfitting.
+Dimentionality reduction is the process to reduce the number of features variables under consideration by obtaining a set of principal variables(important features). The importance of a feature depends on how much it contributes to the information representation of the data. Benefits are (1) more storage space (2) speed up computation (3) remove redundant features (4) easy plotting (5) reduce overfitting. <br>
+Types of dimentionality reduction techniques
+1. Singular Value Decomposition (Usually this would work)
+2. Feature Selection Algorithms
+3. Non-Linear Dimentionality reduction methods ISOMAP, Laplacian, Eigenmaps, MDS
+4. Feature Hahsing / Random Projections
+5. Clustering via K-Means and keep the distance to k centroids for k dimensions.
 #### 10. How to handle corrupted or missing data?
 You could drop the column/row or replace with a placeholder value. Pandas library provides you with isnull() to find null values and dropna() to drop those values. If you want to replace with a placeholder value you can use fillna() function.
 #### 11. How would you go about doing an Exploratory Data Analysis?
