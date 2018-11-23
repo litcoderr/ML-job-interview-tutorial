@@ -16,6 +16,8 @@ Bias is the difference between the average prediction and the correct value. Mod
 Variance is the variability of model prediction for a given data point. Model with high variance pays a lot of attention to training data and does not generalize which leads to high error rates on test data. <br>
 If my model is simple and has very few parameters then it may have high bias and low variance. However if our model has large number of parameters then it's going to have high variance and low bias. So we need to find the right balance without overfitting and underfitting.
 #### 3. Explain over and under fitting and how to combat them?
+To overcome underfitting we have to increase the degree d of the polynomial predictive function. The training error will tend to decrease. Also the cross validation error will tend to decrease forming a convex curve.<br>
+To overcome overfitting we can use regularization techniques. There are three types L1, L2 regularization and Elastic Net. L1 adds absolute value of magnitude to the cost function. L2 adds squared magnitude to the cost function. Elastic Net implements both Lasso and Ridge together. 
 #### 4. How do you combat the curse of dimentionality?
 #### 5. What is regularization and why do we need it? What are some common methods?
 #### 6. Explain Principal Compponent Analysis(PCA)?
