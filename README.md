@@ -22,8 +22,10 @@ To overcome overfitting we can use regularization techniques. There are three ty
 When the dimensionality increases the volume of the space increases exponentially. To support the complex model the more data you need. To solve this problem I would change the algorithm (use RNNs) or reduce the dimentionality of my data. It is explained in question number 9.
 #### 5. What is regularization and why do we need it? What are some common methods?
 We need them to overcome over and underfitting explained in question number 3.
-#### 6. Explain Principal Compponent Analysis(PCA)?
+#### 6. Explain Principal Component Analysis(PCA)?
+PCA is a technique used to emphasize variation and bring out strong patterns in a dataset and also easy to visualize. We find principal components by finding the most fitting axis using SVM. Then calculate the sum of squared distances for all the data point for each principal component and find the variance and reliability of the dataset.
 #### 7. Why is ReLU better and more often used than Sigmoid in Neural Networks?
+
 #### 8. What is data normalization and why do we need it?
 Data normalization is used to rescale values to fit in a specific range to assure better convergence during backpropagation. In general you subtract the mean of each data point to center the dataset to 0 and devide by its standard deviation. This is to make all the features have similar magnitude and have bigger learning rates to converge faster.
 #### 9. Explain dimentionality reduction, where it's used and its benefits?
